@@ -1,3 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+nav {
+  height: 80;
+  background-color: rgb(226, 19, 19);
+}
+
+nav ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-logo {
+  color: aliceblue;
+  font-size: 80px;
+  float: left;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-menu {
+  color: aliceblue;
+  float: right;
+}
+
+.nav-btn {
+  list-style-type: none;
+  margin-top: 20%;
+}
+
+ul.nav-btn > li {
+  float: left;
+  margin-left: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/*head*/
+
+.hd {
+  position: relative;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.hd-tittle {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 45px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.hd::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url(./이미지3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hd .container {
+  position: relative;
+  color: black;
+}
+
+
+/*section*/
+
+.sec {
+  text-align: center;
+  padding: 0;
+}
+
+.sec article {
+  float: left;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.sec article:last-child {
+  margin-right: 0;
+}
+
+.sec article img {
+  width: 100px;
+  height: auto;
+}
+
+.card-img {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.sec::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.ft {
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(226, 19, 19);
+}
+
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +180,4 @@
     transform: rotate(360deg);
   }
 }
+*/
